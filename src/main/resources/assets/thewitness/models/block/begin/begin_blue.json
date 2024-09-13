@@ -1,0 +1,21 @@
+{
+  "credit": "Made with Blockbench",
+  "textures": {
+    "tex": "thewitness:block/solid/blue",
+    "particle": "#tex"
+  },
+  "elements": [
+    {
+      "from": [-8, 0, -8],
+      "to": [24, 16.0625, 24],
+      "faces": {
+        "north": {"uv": [2, 2, 4, 3], "texture": "#tex"},
+        "east": {"uv": [0, 2, 2, 3], "texture": "#tex"},
+        "south": {"uv": [6, 2, 8, 3], "texture": "#tex"},
+        "west": {"uv": [4, 2, 6, 3], "texture": "#tex"},
+        "up": {"uv": [4, 2, 2, 0], "texture": "#tex"},
+        "down": {"uv": [6, 0, 4, 2], "texture": "#tex"}
+      }
+    }
+  ]
+}

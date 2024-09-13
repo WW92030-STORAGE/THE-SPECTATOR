@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "S": {
+      "item": "minecraft:stone"
+    },
+    "X": {
+      "item": "minecraft:magenta_dye"
+    }
+  },
+  "pattern": [
+    " S ",
+    " X ",
+    " S "
+  ],
+  "result": {
+    "count": 16,
+    "item": "thewitness:dot_magenta"
+  },
+  "show_notification": true
+}

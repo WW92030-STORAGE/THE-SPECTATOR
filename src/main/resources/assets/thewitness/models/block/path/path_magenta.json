@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/leaves",
+  "textures": {
+    "all": "thewitness:block/solid/magenta"
+  },
+  "render_type": "solid"
+}

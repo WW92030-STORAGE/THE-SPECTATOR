@@ -1,0 +1,36 @@
+{
+  "replace": false,
+  "values": [
+    "thewitness:begin",
+    "thewitness:begin_gray",
+    "thewitness:begin_red",
+    "thewitness:begin_orange",
+    "thewitness:begin_yellow",
+    "thewitness:begin_green",
+    "thewitness:begin_cyan",
+    "thewitness:begin_blue",
+    "thewitness:begin_magenta",
+
+    "thewitness:path",
+    "thewitness:path_gray",
+    "thewitness:path_red",
+    "thewitness:path_orange",
+    "thewitness:path_yellow",
+    "thewitness:path_green",
+    "thewitness:path_cyan",
+    "thewitness:path_blue",
+    "thewitness:path_magenta",
+
+    "thewitness:end",
+
+    "thewitness:dot",
+    "thewitness:dot_gray",
+    "thewitness:dot_red",
+    "thewitness:dot_orange",
+    "thewitness:dot_yellow",
+    "thewitness:dot_green",
+    "thewitness:dot_cyan",
+    "thewitness:dot_blue",
+    "thewitness:dot_magenta"
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "S": {
+      "item": "minecraft:stone"
+    },
+    "X": {
+      "item": "minecraft:lime_dye"
+    }
+  },
+  "pattern": [
+    " S ",
+    "SXS",
+    " S "
+  ],
+  "result": {
+    "count": 4,
+    "item": "thewitness:begin_green"
+  },
+  "show_notification": true
+}

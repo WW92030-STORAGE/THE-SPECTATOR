@@ -1,0 +1,18 @@
+    public static final RegistryObject<Block> BLOB = registerBlock("blob",
+            () -> new BlobBlock(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).noOcclusion().strength(6f).requiresCorrectToolForDrops()));
+    public static final RegistryObject<Block> BLOB_WHITE = registerBlock("blob_white",
+            () -> new BlobBlockWhite(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).noOcclusion().strength(6f).requiresCorrectToolForDrops()));
+    public static final RegistryObject<Block> BLOB_RED = registerBlock("blob_red",
+            () -> new BlobBlockRed(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).noOcclusion().strength(6f).requiresCorrectToolForDrops()));
+    public static final RegistryObject<Block> BLOB_ORANGE = registerBlock("blob_orange",
+            () -> new BlobBlockOrange(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).noOcclusion().strength(6f).requiresCorrectToolForDrops()));
+    public static final RegistryObject<Block> BLOB_YELLOW = registerBlock("blob_yellow",
+            () -> new BlobBlockYellow(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).noOcclusion().strength(6f).requiresCorrectToolForDrops()));
+    public static final RegistryObject<Block> BLOB_GREEN = registerBlock("blob_green",
+            () -> new BlobBlockGreen(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).noOcclusion().strength(6f).requiresCorrectToolForDrops()));
+    public static final RegistryObject<Block> BLOB_CYAN = registerBlock("blob_cyan",
+            () -> new BlobBlockCyan(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).noOcclusion().strength(6f).requiresCorrectToolForDrops()));
+    public static final RegistryObject<Block> BLOB_BLUE = registerBlock("blob_blue",
+            () -> new BlobBlockBlue(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).noOcclusion().strength(6f).requiresCorrectToolForDrops()));
+    public static final RegistryObject<Block> BLOB_MAGENTA = registerBlock("blob_magenta",
+            () -> new BlobBlockMagenta(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).noOcclusion().strength(6f).requiresCorrectToolForDrops()));
