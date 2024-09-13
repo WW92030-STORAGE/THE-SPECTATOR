@@ -140,7 +140,7 @@ public class PuzzleBlock extends Block {
     }
 
 
-    public boolean MSGDB = false;
+    public boolean MSGDB = true;
 
     public int getSpacing(Level level, BlockPos pos) {
         boolean MSGDB_ = MSGDB && Math.random() < 0.125;
@@ -241,13 +241,15 @@ public class PuzzleBlock extends Block {
                             if (MSGDB) Reference.msgall("BAD INTERSECTION " + Integer.toString(x) + " " + Integer.toString(z), level);
                             return null;
                         }
-
                         else if (block instanceof DotBlock) {
-                            if (v[px][pz].isPath == false) return null;
+                            if (v[px][pz].isPath == false) {
+                                System.out.println("BAD DOT" + x + " " + y + " " + z);
+                                return null;
+                            }
                             else v[px][pz] = new Dot();
                         }
                         else if (!(block instanceof PathBlock)) { // air block
-                            if (v[px][pz] instanceof Dot) return null;
+
                         }
                     }
                     // Edges
@@ -262,11 +264,14 @@ public class PuzzleBlock extends Block {
                             return null;
                         }
                         else if (block instanceof DotBlock) {
-                            if (v[px][pz].isPath == false) return null;
+                            if (v[px][pz].isPath == false) {
+                                System.out.println("BAD DOT" + x + " " + y + " " + z);
+                                return null;
+                            }
                             else v[px][pz] = new Dot();
                         }
                         else if (!(block instanceof PathBlock)) { // air block
-                            if (v[px][pz] instanceof Dot) return null;
+
                         }
                     }
                     else if (dz % spacing == 0 && dx % spacing != 0) {
@@ -280,11 +285,14 @@ public class PuzzleBlock extends Block {
                             return null;
                         }
                         else if (block instanceof DotBlock) {
-                            if (v[px][pz].isPath == false) return null;
+                            if (v[px][pz].isPath == false) {
+                                System.out.println("BAD DOT" + x + " " + y + " " + z);
+                                return null;
+                            }
                             else v[px][pz] = new Dot();
                         }
                         else if (!(block instanceof PathBlock)) { // air block
-                            if (v[px][pz] instanceof Dot) return null;
+
                         }
                     }
                     // CELLS CELLS CELLS CELLS CELLS CELLS CELLS CELLS CELLS CELLS

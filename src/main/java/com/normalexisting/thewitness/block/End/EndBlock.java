@@ -77,7 +77,7 @@ public class EndBlock extends PathBlock {
 
         try {
             // System.out.println((sx / spacing) + " " + (sz / spacing));
-            System.out.println(grid.toString() + "\n" + grid.ver(sx / spacing, sz / spacing));
+            System.out.println("GRID\n" + grid.toString() + "\n" + grid.ver(sx / spacing, sz / spacing));
             return grid.ver(sx / spacing, sz / spacing);
             // return grid.check();
         }
